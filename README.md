@@ -1,4 +1,4 @@
-# Gemini API Skill for pi
+# pi-gemini-skill
 
 A pi skill that provides Google Gemini integration for AI agents. Supports chat, streaming, file uploads, image generation, video/audio creation, and deep research workflows.
 
@@ -15,8 +15,8 @@ A pi skill that provides Google Gemini integration for AI agents. Supports chat,
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/gemini-api-skill.git
-cd gemini-api-skill
+git clone https://github.com/yourusername/pi-gemini-skill.git
+cd pi-gemini-skill
 
 # Install dependencies
 pip install gemini-webapi
@@ -41,7 +41,7 @@ Find your cookies at https://gemini.google.com → F12 → Network tab → refre
 ### With pi
 
 ```
-/skill:gemini-api
+/skill:pi-gemini-skill
 ```
 
 ### Direct Python
@@ -69,7 +69,7 @@ python examples/deep_research.py
 ## Repository Structure
 
 ```
-gemini-api-skill/
+pi-gemini-skill/
 ├── SKILL.md              # Pi skill definition
 ├── gemini_helper.py      # Helper module
 ├── examples/             # Usage examples

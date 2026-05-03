@@ -1,6 +1,6 @@
 ---
-name: gemini-api
-description: Google Gemini web API integration for AI agents. Provides chat, streaming, file upload, image generation, and deep research capabilities via reverse-engineered Gemini web client.
+name: pi-gemini-skill
+description: Google Gemini web API integration for pi AI agents. Provides chat, streaming, file upload, image generation, and deep research capabilities via reverse-engineered Gemini web client.
 license: MIT
 ---
 
