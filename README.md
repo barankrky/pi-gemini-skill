@@ -54,6 +54,10 @@ async def main():
     async with GeminiSkill() as g:
         response = await g.chat("What is quantum computing?")
         print(response.text)
+        
+        # Use flash model
+        response = await g.chat("Explain AI", model="flash")
+        print(response.text)
 
 asyncio.run(main())
 ```

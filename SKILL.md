@@ -175,9 +175,11 @@ python examples/deep_research.py
 ### Model Options
 
 - `Model.UNSPECIFIED` - Default model
-- `"gemini-2.0-flash"` - Fast model
-- `"gemini-2.0-pro"` - Pro model
-- `"gemini-2.0-flash-exp-image-generation"` - Image generation
+- `Model.BASIC_FLASH` - Fast model (equivalent to gemini-2.0-flash)
+- `Model.BASIC_PRO` - Pro model (equivalent to gemini-2.0-pro)
+- `Model.ADVANCED_FLASH` - Advanced flash model
+- `Model.ADVANCED_PRO` - Advanced pro model
+- `"gemini-2.0-flash-exp-image-generation"` - Image generation (legacy string)
 
 ### Output Types
 

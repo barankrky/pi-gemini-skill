@@ -56,8 +56,8 @@ class GeminiSkill:
             raise RuntimeError("Client not initialized - use async context manager")
         
         model_enum = {
-            "flash": Model.GEMINI_FLASH,
-            "pro": Model.GEMINI_PRO,
+            "flash": Model.BASIC_FLASH,
+            "pro": Model.BASIC_PRO,
         }.get(model.lower(), Model.UNSPECIFIED)
         
         if stream:
